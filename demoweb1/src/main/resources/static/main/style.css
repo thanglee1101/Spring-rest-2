@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 40px;
+}
+input[type="text"],input[type="email"]{
+    width: 15em;
+    margin-right: 50px;
+    margin-bottom: 0.5em;
+}
+.ingredient-group{
+	width: 50%;
+	
+	margin-top: 10px;
+}
+.submit{
+	display: block;
+	padding-left: 20px;
+}
